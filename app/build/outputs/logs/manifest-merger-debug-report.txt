@@ -1,159 +1,247 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\news\app\src\main\AndroidManifest.xml:2:1-48:12
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [com.roughike:bottom-bar:1.3.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-bar-1.3.9.aar\4bae91fd3bb80facdb4334363253a038\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\96c1b736ce2e670144e6a9dbb5e70b0e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\46698c54272310eaf9287aa75043f240\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\915a045e323b963f021ef41ffa0f8b59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.youth.banner:banner:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.3.3.aar\e1db2426deefe18041dea93a8ce8e881\AndroidManifest.xml:2:1-11:12
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dd3bcde41d89a10b92c657aac1b131f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\799184747d25ca1188f1545698e87282\AndroidManifest.xml:2:1-9:12
+MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.3.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\view-pager-transforms-1.3.7.aar\3e85cf5793c28d5ebe045f78786638e0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\pagerslidingtabstrip-1.0.1.aar\26438ac855131b63f8d55d50d15eb4ce\AndroidManifest.xml:1:1-5:12
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\081c563d137e1022672eb9b63bd24845\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\71c292e96e0ec6bb5812cb9ff4618254\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\caad18b77d2bf4dc73fa316e9f8c749f\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\f49a9c79299ce975a50fbcf2fa8511da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\df6e405e049c9da3d9699cdccbd6efe2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3b371fce6d10aaf76bcbc5cfa471ad75\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\bbce37b3734bd938a4ac57e69de817c2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8a0a09695c85aa2706a27719f5ab494d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\59527c8bc3593a5468b1333268bfc1a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c30c5acba0cc7aaaba6f54461ccd86d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\eef419486f818c1b92a468a8e432ac5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5c266bd3520a471f6f5021060b0049f4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\ada350bc609a6cfc3f1dcdca3e9b62d5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\63b2998cd174c68234e6dcf35aa60547\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\6f5e8d918b7e57fb8e8fab74c1f92b5b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\ea3666dbc1fcffac9cc73fbc672842cb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\022dbb0d2143b50da92be5cc25b2b338\AndroidManifest.xml:2:1-13:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.7.4.aar\c15c3be1b578eb13c64788231cd5084c\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv7a-0.7.4.aar\8486a708a12d2ed8dfd203d4fb74371d\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-arm64-0.7.4.aar\c20e83988bbf7cd58f84e1dd7fccfe2a\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86-0.7.4.aar\4515ebea4cfd1b324446a77ddff6b800\AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86_64-0.7.4.aar\282b441af0fc1c788e7a0c9839ddcb41\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\769e29d87e79a9ae95c4119597959c97\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6396312a43b80de9e467ef9a461d9898\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08767f4181178effef1b0f00d93dd9ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f300a508c1083ec8b409f42355386ffe\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
 	package
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:3:5-33
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:2:11-69
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from F:\news\app\src\main\AndroidManifest.xml:6:5-71
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:6:22-68
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from F:\news\app\src\main\AndroidManifest.xml:7:5-71
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:7:22-68
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from F:\news\app\src\main\AndroidManifest.xml:8:5-72
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:8:22-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\news\app\src\main\AndroidManifest.xml:9:5-67
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\news\app\src\main\AndroidManifest.xml:10:5-75
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:10:22-72
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:10:22-72
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\news\app\src\main\AndroidManifest.xml:11:5-76
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:11:22-73
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:11:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\news\app\src\main\AndroidManifest.xml:12:5-79
-MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\27049\.android\build-cache\d506476e1c3e558d8f408bba24b1636371d228fe\output\AndroidManifest.xml:13:5-79
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:13:5-79
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\news\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.READ_LOGS
-ADDED from F:\news\app\src\main\AndroidManifest.xml:14:5-68
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:14:5-68
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:14:22-65
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:14:22-65
 application
-ADDED from F:\news\app\src\main\AndroidManifest.xml:15:5-45:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\27049\.android\build-cache\1a750493eee72a89fe1535a28504fa29ffcfbf9c\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:23.3.0] C:\Users\27049\.android\build-cache\ebddd6b9fc608d388f11052064578af0f48f0cc4\output\AndroidManifest.xml:22:5-20
-MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\27049\.android\build-cache\d506476e1c3e558d8f408bba24b1636371d228fe\output\AndroidManifest.xml:15:5-17:38
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\27049\.android\build-cache\126f20fca7d32a137dc9f73b41a235c1e373591e\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\27049\.android\build-cache\983ede0bfe95f728833f81887b7229ef4d677af6\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\27049\.android\build-cache\76d2dc4106e221733e86a2c3bc1e663554158123\output\AndroidManifest.xml:23:5-20
-MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\27049\.android\build-cache\f0bf1d2cd22d792b94de318424172d4c1e0145ec\output\AndroidManifest.xml:4:5-19
-MERGED from [com.android.support:support-v4:25.0.1] C:\Users\27049\.android\build-cache\1b886a93d2e8d5662cc9ca3282e30ba8a1020ab9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\27049\.android\build-cache\f04540674ea438530a7f6c2e25453e80e15890ed\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\27049\.android\build-cache\7191091c3061059fadb6a9c689a1cce3d07f1ba9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\27049\.android\build-cache\cae68cb0a2e3ae63c29b171fa7d225961cd705d9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\27049\.android\build-cache\666f090ba0ffbb0351d7f5475644b58ae5a99ef3\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.0.1] C:\Users\27049\.android\build-cache\8c7380fd396ea7a20751ed3c6ecf57578fbf039a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\27049\.android\build-cache\beaa8fa082ca7396c126dc6c5149acda29c2efb2\output\AndroidManifest.xml:22:5-20
-	android:label
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:18:9-41
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:15:5-45:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\96c1b736ce2e670144e6a9dbb5e70b0e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\96c1b736ce2e670144e6a9dbb5e70b0e\AndroidManifest.xml:9:5-20
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:15:5-17:38
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:15:5-17:38
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\pagerslidingtabstrip-1.0.1.aar\26438ac855131b63f8d55d50d15eb4ce\AndroidManifest.xml:4:5-19
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\pagerslidingtabstrip-1.0.1.aar\26438ac855131b63f8d55d50d15eb4ce\AndroidManifest.xml:4:5-19
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\022dbb0d2143b50da92be5cc25b2b338\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\022dbb0d2143b50da92be5cc25b2b338\AndroidManifest.xml:11:5-20
 	android:supportsRtl
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:19:9-35
-	android:allowBackup
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:18:9-41
 	android:icon
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:20:9-40
 activity#chinasoft.com.news.SplashActivity
-ADDED from F:\news\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:21:19-49
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\news\app\src\main\AndroidManifest.xml:22:13-26:29
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:21:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from F:\news\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\news\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:25:27-74
 activity#chinasoft.com.news.MainActivity
-ADDED from F:\news\app\src\main\AndroidManifest.xml:28:9-32:20
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:28:9-32:20
 	android:label
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:30:13-45
 	android:theme
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:29:13-41
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:29:13-41
 activity#chinasoft.com.news.LoginActivity
-ADDED from F:\news\app\src\main\AndroidManifest.xml:33:9-35:20
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:33:9-35:20
 	android:label
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:34:13-45
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:33:19-48
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:33:19-48
 activity#chinasoft.com.news.RegisterActivity
-ADDED from F:\news\app\src\main\AndroidManifest.xml:36:9-38:20
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:36:9-38:20
 	android:label
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:37:13-45
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:37:13-45
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:36:19-51
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:36:19-51
 activity#chinasoft.com.news.MsgDetailActivity
-ADDED from F:\news\app\src\main\AndroidManifest.xml:39:9-41:20
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:39:9-41:20
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:39:19-52
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:39:19-52
 activity#chinasoft.com.news.WebActivity
-ADDED from F:\news\app\src\main\AndroidManifest.xml:42:9-44:20
+ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:42:9-44:20
 	android:name
-		ADDED from F:\news\app\src\main\AndroidManifest.xml:42:19-46
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml:42:19-46
 uses-sdk
-INJECTED from F:\news\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.roughike:bottom-bar:1.3.9] C:\Users\27049\.android\build-cache\7a433939a85b26f69a690d89aed740cbfb12a411\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\27049\.android\build-cache\1a750493eee72a89fe1535a28504fa29ffcfbf9c\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:23.3.0] C:\Users\27049\.android\build-cache\ebddd6b9fc608d388f11052064578af0f48f0cc4\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\27049\.android\build-cache\7359ecd1be8a948633bf7d9820d6cef4a10ac134\output\AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fresco:fresco:0.13.0] C:\Users\27049\.android\build-cache\a8003ec3f25054df1ff20772b1141b03d7857f48\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:0.13.0] C:\Users\27049\.android\build-cache\c87bf016b4973f5167b5baefc088375a6d512d37\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:0.13.0] C:\Users\27049\.android\build-cache\a5323db4b5aa2cd6555d61b68f314160a0110425\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:0.13.0] C:\Users\27049\.android\build-cache\fb464314108d56f3631199ad8f4d955b46d48bb8\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:0.13.0] C:\Users\27049\.android\build-cache\78c1bd4e96f8b4194fc5a34fe14c74c7ef047b9a\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32] C:\Users\27049\.android\build-cache\252c8373b231c1d2438867ed526c7cfb962c6a78\output\AndroidManifest.xml:23:5-25:41
-MERGED from [com.youth.banner:banner:1.2.6] C:\Users\27049\.android\build-cache\a2e976c2e18538a470bd6e17479b37ab2d40b7de\output\AndroidManifest.xml:7:5-9:41
-MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\27049\.android\build-cache\d506476e1c3e558d8f408bba24b1636371d228fe\output\AndroidManifest.xml:8:5-11:104
-MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\27049\.android\build-cache\126f20fca7d32a137dc9f73b41a235c1e373591e\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\27049\.android\build-cache\983ede0bfe95f728833f81887b7229ef4d677af6\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\27049\.android\build-cache\76d2dc4106e221733e86a2c3bc1e663554158123\output\AndroidManifest.xml:21:5-43
-MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.4] C:\Users\27049\.android\build-cache\fe0b810fcb103e42cf64132a8f8bfc22c8ea8f2d\output\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.4] C:\Users\27049\.android\build-cache\bdb939418596ae6d0d4c40cfab54dc95e921f739\output\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.7.4] C:\Users\27049\.android\build-cache\ff2d76023f97625a99c515a12e4a298973dbd997\output\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.7.4] C:\Users\27049\.android\build-cache\97b5e42a45eceb41c60f6c8ab0ef728fca22d14e\output\AndroidManifest.xml:5:5-7:41
-MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.7.4] C:\Users\27049\.android\build-cache\306374af2900ad36497574f8a9d86388972306a0\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\27049\.android\build-cache\f0bf1d2cd22d792b94de318424172d4c1e0145ec\output\AndroidManifest.xml:2:5-72
-MERGED from [com.android.support:support-v4:25.0.1] C:\Users\27049\.android\build-cache\1b886a93d2e8d5662cc9ca3282e30ba8a1020ab9\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\27049\.android\build-cache\f04540674ea438530a7f6c2e25453e80e15890ed\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\27049\.android\build-cache\7191091c3061059fadb6a9c689a1cce3d07f1ba9\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\27049\.android\build-cache\cae68cb0a2e3ae63c29b171fa7d225961cd705d9\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\27049\.android\build-cache\666f090ba0ffbb0351d7f5475644b58ae5a99ef3\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.0.1] C:\Users\27049\.android\build-cache\8c7380fd396ea7a20751ed3c6ecf57578fbf039a\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\27049\.android\build-cache\552e202f18d7133e1a78ba36ea0c8869bf4aa525\output\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\27049\.android\build-cache\beaa8fa082ca7396c126dc6c5149acda29c2efb2\output\AndroidManifest.xml:20:5-43
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+MERGED from [com.roughike:bottom-bar:1.3.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-bar-1.3.9.aar\4bae91fd3bb80facdb4334363253a038\AndroidManifest.xml:8:5-10:41
+MERGED from [com.roughike:bottom-bar:1.3.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-bar-1.3.9.aar\4bae91fd3bb80facdb4334363253a038\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\96c1b736ce2e670144e6a9dbb5e70b0e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\96c1b736ce2e670144e6a9dbb5e70b0e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\46698c54272310eaf9287aa75043f240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\46698c54272310eaf9287aa75043f240\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\915a045e323b963f021ef41ffa0f8b59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\915a045e323b963f021ef41ffa0f8b59\AndroidManifest.xml:20:5-44
+MERGED from [com.youth.banner:banner:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.3.3.aar\e1db2426deefe18041dea93a8ce8e881\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\banner-1.3.3.aar\e1db2426deefe18041dea93a8ce8e881\AndroidManifest.xml:7:5-9:41
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:8:5-11:104
+MERGED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:8:5-11:104
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dd3bcde41d89a10b92c657aac1b131f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dd3bcde41d89a10b92c657aac1b131f1\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\799184747d25ca1188f1545698e87282\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\799184747d25ca1188f1545698e87282\AndroidManifest.xml:5:5-7:41
+MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.3.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\view-pager-transforms-1.3.7.aar\3e85cf5793c28d5ebe045f78786638e0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.3.7] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\view-pager-transforms-1.3.7.aar\3e85cf5793c28d5ebe045f78786638e0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\pagerslidingtabstrip-1.0.1.aar\26438ac855131b63f8d55d50d15eb4ce\AndroidManifest.xml:2:5-72
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\pagerslidingtabstrip-1.0.1.aar\26438ac855131b63f8d55d50d15eb4ce\AndroidManifest.xml:2:5-72
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\081c563d137e1022672eb9b63bd24845\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\081c563d137e1022672eb9b63bd24845\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\71c292e96e0ec6bb5812cb9ff4618254\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\71c292e96e0ec6bb5812cb9ff4618254\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\caad18b77d2bf4dc73fa316e9f8c749f\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.4.0.aar\caad18b77d2bf4dc73fa316e9f8c749f\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\f49a9c79299ce975a50fbcf2fa8511da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\f49a9c79299ce975a50fbcf2fa8511da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\df6e405e049c9da3d9699cdccbd6efe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\df6e405e049c9da3d9699cdccbd6efe2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3b371fce6d10aaf76bcbc5cfa471ad75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3b371fce6d10aaf76bcbc5cfa471ad75\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\bbce37b3734bd938a4ac57e69de817c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\bbce37b3734bd938a4ac57e69de817c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8a0a09695c85aa2706a27719f5ab494d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\8a0a09695c85aa2706a27719f5ab494d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\59527c8bc3593a5468b1333268bfc1a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\59527c8bc3593a5468b1333268bfc1a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c30c5acba0cc7aaaba6f54461ccd86d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c30c5acba0cc7aaaba6f54461ccd86d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\eef419486f818c1b92a468a8e432ac5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\eef419486f818c1b92a468a8e432ac5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5c266bd3520a471f6f5021060b0049f4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5c266bd3520a471f6f5021060b0049f4\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\ada350bc609a6cfc3f1dcdca3e9b62d5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\ada350bc609a6cfc3f1dcdca3e9b62d5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\63b2998cd174c68234e6dcf35aa60547\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\63b2998cd174c68234e6dcf35aa60547\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\6f5e8d918b7e57fb8e8fab74c1f92b5b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\6f5e8d918b7e57fb8e8fab74c1f92b5b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\ea3666dbc1fcffac9cc73fbc672842cb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\ea3666dbc1fcffac9cc73fbc672842cb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\022dbb0d2143b50da92be5cc25b2b338\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\soloader-0.5.0.aar\022dbb0d2143b50da92be5cc25b2b338\AndroidManifest.xml:7:5-9:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.7.4.aar\c15c3be1b578eb13c64788231cd5084c\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-java-0.7.4.aar\c15c3be1b578eb13c64788231cd5084c\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv7a-0.7.4.aar\8486a708a12d2ed8dfd203d4fb74371d\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-armv7a-0.7.4.aar\8486a708a12d2ed8dfd203d4fb74371d\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-arm64-0.7.4.aar\c20e83988bbf7cd58f84e1dd7fccfe2a\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-arm64:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-arm64-0.7.4.aar\c20e83988bbf7cd58f84e1dd7fccfe2a\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86-0.7.4.aar\4515ebea4cfd1b324446a77ddff6b800\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86-0.7.4.aar\4515ebea4cfd1b324446a77ddff6b800\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86_64-0.7.4.aar\282b441af0fc1c788e7a0c9839ddcb41\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86_64:0.7.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\ijkplayer-x86_64-0.7.4.aar\282b441af0fc1c788e7a0c9839ddcb41\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\769e29d87e79a9ae95c4119597959c97\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\769e29d87e79a9ae95c4119597959c97\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6396312a43b80de9e467ef9a461d9898\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6396312a43b80de9e467ef9a461d9898\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08767f4181178effef1b0f00d93dd9ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08767f4181178effef1b0f00d93dd9ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f300a508c1083ec8b409f42355386ffe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f300a508c1083ec8b409f42355386ffe\AndroidManifest.xml:20:5-44
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\27049\.android\build-cache\d506476e1c3e558d8f408bba24b1636371d228fe\output\AndroidManifest.xml:11:9-101
+		ADDED from [fm.jiecao:jiecaovideoplayer:4.8.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\jiecaovideoplayer-4.8.3.aar\940b0c7e9b956aceef0d7c733a1134a7\AndroidManifest.xml:11:9-101
 	android:targetSdkVersion
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
-		INJECTED from F:\news\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		ADDED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
+		INJECTED from E:\android-workspace\news\app\src\main\AndroidManifest.xml
