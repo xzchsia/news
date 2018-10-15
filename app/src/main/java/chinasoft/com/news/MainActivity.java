@@ -20,7 +20,7 @@ import android.widget.TextView;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener{
+        implements NavigationView.OnNavigationItemSelectedListener {
     /*声明变量*/
     // 布局管理器
     private FragmentManager fManager;
@@ -47,16 +47,21 @@ public class MainActivity extends AppCompatActivity
     //头像
     private ImageView userPhoto;
     private FragmentHome mfragmentHome;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+
+        // 使用新方法替换已经Deprecated的方法
+        //drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
+
         toggle.syncState();
         // 初始化组件
         initViews();
@@ -66,6 +71,7 @@ public class MainActivity extends AppCompatActivity
         Fresco.initialize(this);
 
     }
+
     /*---------------------贱贱的分割线---------------------*/
     @Override
     public void onBackPressed() {
@@ -99,15 +105,20 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * 左侧Navigation
+     * @param item
+     * @return
+     */
     @SuppressWarnings("StatementWithEmptyBody")
-    @Override /*左侧Navigation*/
+    @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_one) {
             // Handle the action
-            Intent intent=new Intent(MainActivity.this,DialogActivity.class);
+            Intent intent = new Intent(MainActivity.this, DialogActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_two) {
@@ -130,23 +141,25 @@ public class MainActivity extends AppCompatActivity
         // 布局管理器
         fManager = getSupportFragmentManager();
 
-        iv_menu_home = (ImageView)findViewById(R.id.iv_menu_home);
-        tv_menu_home = (TextView)findViewById(R.id.tv_menu_home);
+        iv_menu_home = (ImageView) findViewById(R.id.iv_menu_home);
+        tv_menu_home = (TextView) findViewById(R.id.tv_menu_home);
 
-        iv_menu_news = (ImageView)findViewById(R.id.iv_menu_news);
-        tv_menu_news = (TextView)findViewById(R.id.tv_menu_news);
+        iv_menu_news = (ImageView) findViewById(R.id.iv_menu_news);
+        tv_menu_news = (TextView) findViewById(R.id.tv_menu_news);
 
-        iv_menu_photo = (ImageView)findViewById(R.id.iv_menu_photo);
-        tv_menu_photo = (TextView)findViewById(R.id.tv_menu_photo);
+        iv_menu_photo = (ImageView) findViewById(R.id.iv_menu_photo);
+        tv_menu_photo = (TextView) findViewById(R.id.tv_menu_photo);
 
-        iv_menu_me = (ImageView)findViewById(R.id.iv_menu_me);
-        tv_menu_me = (TextView)findViewById(R.id.tv_menu_me);
+        iv_menu_me = (ImageView) findViewById(R.id.iv_menu_me);
+        tv_menu_me = (TextView) findViewById(R.id.tv_menu_me);
     }
+
     /**
      * 点击底部菜单事件
+     *
      * @param v
      */
-    public void clickMenu(View v){
+    public void clickMenu(View v) {
         FragmentTransaction trans = fManager.beginTransaction();
         int vID = v.getId();
         // 设置menu样式
@@ -154,62 +167,66 @@ public class MainActivity extends AppCompatActivity
         // 隐藏所有的fragment
         hideFrament(trans);
         // 设置Fragment
-        setFragment(vID,trans);
+        setFragment(vID, trans);
+        // 提交
         trans.commit();
     }
+
     /**
      * 隐藏所有的fragment(编程初始化状态)
+     *
      * @param trans
      */
     private void hideFrament(FragmentTransaction trans) {
-        if(fragment_home!=null){
+        if (fragment_home != null) {
             trans.hide(fragment_home);
         }
-        if(fragment_news!=null){
+        if (fragment_news != null) {
             trans.hide(fragment_news);
         }
-        if(fragment_photo!=null){
+        if (fragment_photo != null) {
             trans.hide(fragment_photo);
         }
-        if(fragment_me!=null){
+        if (fragment_me != null) {
             trans.hide(fragment_me);
         }
     }
+
     /**
-     * 设置menu样式
+     * 设置底部导航menu样式
+     *
      * @param vID
-     * @param trans
      */
     private void setMenuStyle(int vID) {
         // 首页
-        if(vID==R.id.ll_menu_home){
+        if (vID == R.id.ll_menu_home) {
             iv_menu_home.setImageDrawable(getResources().getDrawable(R.mipmap.ic_home_red));
             tv_menu_home.setTextColor(getResources().getColor(R.color.red));
-        }else {
+        } else {
             iv_menu_home.setImageDrawable(getResources().getDrawable(R.mipmap.ic_home_white));
             tv_menu_home.setTextColor(getResources().getColor(R.color.gray));
         }
-       // 新闻
-        if(vID==R.id.ll_menu_news){
+        // 新闻
+        if (vID == R.id.ll_menu_news) {
             iv_menu_news.setImageDrawable(getResources().getDrawable(R.mipmap.ic_news_red));
             tv_menu_news.setTextColor(getResources().getColor(R.color.red));
-        }else {
+        } else {
             iv_menu_news.setImageDrawable(getResources().getDrawable(R.mipmap.ic_news_white));
             tv_menu_news.setTextColor(getResources().getColor(R.color.gray));
         }
         // 视频
-        if(vID==R.id.ll_menu_photo){
+        if (vID == R.id.ll_menu_photo) {
             iv_menu_photo.setImageDrawable(getResources().getDrawable(R.mipmap.ic_photo_red));
             tv_menu_photo.setTextColor(getResources().getColor(R.color.red));
-        }else {
+        } else {
             iv_menu_photo.setImageDrawable(getResources().getDrawable(R.mipmap.ic_photo_white));
             tv_menu_photo.setTextColor(getResources().getColor(R.color.grey));
         }
         // 我的
-        if(vID==R.id.ll_menu_me){
+        if (vID == R.id.ll_menu_me) {
             iv_menu_me.setImageDrawable(getResources().getDrawable(R.mipmap.ic_person_red));
             tv_menu_me.setTextColor(getResources().getColor(R.color.red));
-        }else {
+        } else {
             iv_menu_me.setImageDrawable(getResources().getDrawable(R.mipmap.ic_person_white));
             tv_menu_me.setTextColor(getResources().getColor(R.color.gray));
         }
@@ -217,41 +234,42 @@ public class MainActivity extends AppCompatActivity
 
     /**
      * 设置Fragment
+     *
      * @param vID
      * @param trans
      */
-    private void setFragment(int vID,FragmentTransaction trans) {
+    private void setFragment(int vID, FragmentTransaction trans) {
         switch (vID) {
             //四个Fragment
             case R.id.ll_menu_home:
-                if(fragment_home==null){
+                if (fragment_home == null) {
                     fragment_home = new FragmentHome();
                     trans.add(R.id.content, fragment_home);
-                }else{
+                } else {
                     trans.show(fragment_home);
                 }
                 break;
             case R.id.ll_menu_photo:
-                if(fragment_photo==null){
+                if (fragment_photo == null) {
                     fragment_photo = new FragmentPhoto();
                     trans.add(R.id.content, fragment_photo);
-                }else{
+                } else {
                     trans.show(fragment_photo);
                 }
                 break;
             case R.id.ll_menu_news:
-                if(fragment_news==null){
+                if (fragment_news == null) {
                     fragment_news = new FragmentNews();
                     trans.add(R.id.content, fragment_news);
-                }else{
+                } else {
                     trans.show(fragment_news);
                 }
                 break;
             case R.id.ll_menu_me:
-                if(fragment_me==null){
+                if (fragment_me == null) {
                     fragment_me = new FragmentPerson();
                     trans.add(R.id.content, fragment_me);
-                }else{
+                } else {
                     trans.show(fragment_me);
                 }
                 break;
