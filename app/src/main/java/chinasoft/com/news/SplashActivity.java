@@ -10,6 +10,9 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+/**
+ * 启动界面过渡动画功能
+ */
 public class SplashActivity extends Activity implements Animation.AnimationListener {
 
 
@@ -20,6 +23,7 @@ public class SplashActivity extends Activity implements Animation.AnimationListe
 
     private ImageView imageView = null;
     private Animation alphaAnimation = null;
+
     @Override
     public void onCreate(Bundle icicle) {
         //取消顶部标题
@@ -36,13 +40,14 @@ public class SplashActivity extends Activity implements Animation.AnimationListe
         imageView.setAnimation(alphaAnimation);
         alphaAnimation.setAnimationListener(this);  //为动画设置监听
     }
+
     @Override
-    public void onAnimationStart (Animation animation){
+    public void onAnimationStart(Animation animation) {
 
     }
 
     @Override
-    public void onAnimationEnd (Animation animation){
+    public void onAnimationEnd(Animation animation) {
         //动画结束时结束欢迎界面并转到软件的主界面
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
@@ -50,12 +55,12 @@ public class SplashActivity extends Activity implements Animation.AnimationListe
     }
 
     @Override
-    public void onAnimationRepeat (Animation animation){
+    public void onAnimationRepeat(Animation animation) {
 
     }
 
     @Override
-    public boolean onKeyDown ( int keyCode, KeyEvent event){
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
         //在欢迎界面屏蔽BACK键
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             return false;

@@ -18,6 +18,9 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * 登录界面功能
+ */
 public class RegisterActivity extends Activity {
     EditText etName,etPwd;
     Button loginbtn;

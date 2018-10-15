@@ -21,7 +21,7 @@ import com.facebook.drawee.backends.pipeline.Fresco;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    /*声明变量*/
+
     // 布局管理器
     private FragmentManager fManager;
 

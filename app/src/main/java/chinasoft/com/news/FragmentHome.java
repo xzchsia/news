@@ -1,4 +1,5 @@
 package chinasoft.com.news;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,11 +13,15 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class FragmentHome extends Fragment implements JsonUtils.CallBackListener,SwipeRefreshLayout.OnRefreshListener{
+/**
+ * Home页的Fragment
+ */
+public class FragmentHome extends Fragment implements JsonUtils.CallBackListener, SwipeRefreshLayout.OnRefreshListener {
     private List<Data>[] msgList; //存放所有数据的集合数组
     private RecyclerView mRecyclerView;
     private int now_num = 1;
@@ -28,21 +33,22 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
     private HomeAdapter adapter;
     ProgressDialogUtils utils;
     private SwipeRefreshLayout swipe;
-    private HintPopupWindow hintPopupWindow;//仿3dtouch
+    //private HintPopupWindow hintPopupWindow;//仿3dtouch
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         //需要返回的View
-        View rootView=inflater.inflate(R.layout.activity_home,container,false);
+        View rootView = inflater.inflate(R.layout.activity_home, container, false);
 
         getData();
         onRefresh();
-        mRecyclerView= (RecyclerView) rootView.findViewById(R.id.recycle_view);
+        mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recycle_view);
         swipe = (SwipeRefreshLayout) rootView.findViewById(R.id.swipe);
 
         swipe.setOnRefreshListener(this);
-        swipe.setColorSchemeResources(android.R.color.holo_red_light,android.R.color.holo_blue_bright);
-        
-        adapter=new HomeAdapter(getActivity(),mData_item,mBannerBean);
+        swipe.setColorSchemeResources(android.R.color.holo_red_light, android.R.color.holo_blue_bright);
+
+        adapter = new HomeAdapter(getActivity(), mData_item, mBannerBean);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         mRecyclerView.setAdapter(adapter);
         initListener();
@@ -52,13 +58,13 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
     private void initListener() {
 
         //item的点击事件
-        adapter.setMyItemClickListener( new HomeAdapter.OnMyItemClickListener() {
+        adapter.setMyItemClickListener(new HomeAdapter.OnMyItemClickListener() {
             @Override
             public void onClick(int position) {
-                String url = mData_item.get(position-1).getUrl();
+                String url = mData_item.get(position - 1).getUrl();
                 Intent intent = new Intent(getActivity(), MsgDetailActivity.class);
-                intent.putExtra("url",url);
-                intent.putExtra("position",mPosition);
+                intent.putExtra("url", url);
+                intent.putExtra("position", mPosition);
                 startActivity(intent);
             }
         });
@@ -67,16 +73,16 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
-                if(newState == RecyclerView.SCROLL_STATE_IDLE &&
-                        lastVisibleItem+1 == adapter.getItemCount()){
+                if (newState == RecyclerView.SCROLL_STATE_IDLE &&
+                        lastVisibleItem + 1 == adapter.getItemCount()) {
                     mHandler.postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            now_num+=5;
+                            now_num += 5;
                             initData();
                             swipe.setRefreshing(false);
                         }
-                    },1000);
+                    }, 1000);
                 }
             }
 
@@ -87,6 +93,7 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
             }
         });
     }
+
     //回调接口更新UI
     public void updateUI(List<Data>[] mDataList) {
         this.msgList = mDataList;
@@ -107,7 +114,7 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
             mData_item.clear();
 
             //给轮播图数据进行初始化
-            for (int i= 0; i < 3 ; i++) {
+            for (int i = 0; i < 3; i++) {
                 banner_img[i] = list.get(i).getThumbnail();
                 banner_title[i] = list.get(i).getTitle();
                 banner_toPageUrl[i] = list.get(i).getUrl();
@@ -119,10 +126,10 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
             }
 
             //给recyclerView的item填充数据
-            for(int i = 3;i<now_num;i++){
+            for (int i = 3; i < now_num; i++) {
                 mData_item.add(list.get(i));
             }
-            Log.i("", "initData: ------------>"+now_num);
+            Log.i("", "initData: ------------>" + now_num);
 
             adapter.notifyDataSetChanged();
 
@@ -133,7 +140,7 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
     public void getData() {
         mBannerBean = new BannerBean();
         utils = new ProgressDialogUtils();
-        utils.showPorgressDialog(getActivity(),"loading...");
+        utils.showPorgressDialog(getActivity(), "loading...");
         jsonUtils = new JsonUtils(this);
         jsonUtils.getResult();
 
@@ -143,17 +150,17 @@ public class FragmentHome extends Fragment implements JsonUtils.CallBackListener
     public void onRefresh() {
         Message msg = new Message();
         msg.what = 1;
-        mHandler.sendMessageDelayed(msg,2000);
+        mHandler.sendMessageDelayed(msg, 2000);
     }
 
-    private Handler mHandler = new Handler(){
+    private Handler mHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            switch (msg.what){
+            switch (msg.what) {
                 case 1:
                     //下拉刷新操作
-                    now_num = now_num+5;
+                    now_num = now_num + 5;
                     initData();
                     swipe.setRefreshing(false);
                     break;

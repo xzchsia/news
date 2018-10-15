@@ -2,7 +2,7 @@ package chinasoft.com.news;
 
 
 /**
- *
+ * 登录用户类
  */
 
 public class User {
