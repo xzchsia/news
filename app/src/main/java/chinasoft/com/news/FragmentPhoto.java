@@ -13,9 +13,10 @@ public class FragmentPhoto extends Fragment{
                              Bundle savedInstanceState) {
         //需要返回的View
         View rootView=inflater.inflate(R.layout.activity_photo,null);
-        listView = (ListView) rootView.findViewById(R.id.listview_p);
-        VideoListAdapter adapter=new VideoListAdapter(getContext());
-        listView.setAdapter(adapter);
+        // todo 当前没有视频播放相应的so库，所以暂时先注释掉，避免崩溃
+        //listView = (ListView) rootView.findViewById(R.id.listview_p);
+        //VideoListAdapter adapter=new VideoListAdapter(getContext());
+        //listView.setAdapter(adapter);
         return rootView;
     }
     // 方法区
